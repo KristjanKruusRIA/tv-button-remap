@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Button-to-app mappings in "<keycode>:<target>" format.
+        <target> can be either a package name ("org.smarttube.stable") or an explicit
+        component ("com.example.app/.MainActivity").
+
+        Google TV Streamer 4K (/system/usr/keylayout/Vendor_18d1_Product_9451.kl):
+          190 = KEYCODE_BUTTON_3 (YouTube button)
+          191 = KEYCODE_BUTTON_4 (Netflix button)
+          313 = KEYCODE_MACRO_1  (Star / customizable button)
+    -->
+    <string-array name="button_mappings">
+        <item>190:org.smarttube.stable</item>
+        <item>191:com.nuvio.tv</item>
+    </string-array>
+</resources>
